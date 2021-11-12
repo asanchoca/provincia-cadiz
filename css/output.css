@@ -1,0 +1,133 @@
+* {
+  color: darkblue;
+  font-family: "Alegreya";
+}
+
+header {
+  width: 80%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.divFlex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.photoHeaderPortada {
+  background-image: url("../img/cadiz-4005746_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: padding-box;
+  background-size: 100%;
+  height: 30vh;
+  color: white;
+  width: unset;
+}
+
+.parent {
+  margin: auto;
+  margin-bottom: 10px;
+  border: darkblue 2px solid;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+
+.child {
+  width: 84%;
+  height: 100%;
+  background-color: #ccddff;
+  background-position: center;
+  background-size: 100%;
+  padding: 8%;
+}
+
+.parent:hover .child,
+.parent:focus .child {
+  transform: scale(1.2);
+}
+
+.content80width {
+  width: 80%;
+  margin: auto;
+}
+
+.planesContainer {
+  display: grid;
+  grid-template-columns: 0.75fr 2.5fr 0.75fr;
+  gap: 20px;
+}
+
+.divBack {
+  background-color: #e6eeff;
+  padding: 10px;
+}
+
+.planesContainer div img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  position: center;
+}
+
+.centeredImg {
+  display: flex;
+  justify-content: center;
+}
+
+figure {
+  text-align: right;
+  font-size: smaller;
+  margin-right: 10px;
+  margin-bottom: 5%;
+}
+
+figure blockquote {
+  margin-right: 0px;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  border: none;
+  max-width: 100%;
+}
+
+article img, figcaption {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
+}
+
+figcaption {
+  display: block;
+  margin: auto;
+}
+
+#portadaFigcaption {
+  margin-right: 0px;
+  text-align: right;
+}
+
+footer {
+  background-color: #e6eeff;
+  color: darkblue;
+  text-align: center;
+  font-family: "Open Sans";
+  padding: 10px;
+  margin-top: 4em;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=output.css.map */
